@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>مركز سند لذوي الاحتياجات الخاصة</title>
+
+    <!-- Favicons -->
+  <link href="assets/img/sanad.logo.png" rel="icon">
+  <link href="assets/img/sanad.logo.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+  <link rel="stylesheet" href="assets/css/style1.css">
+  <link rel="stylesheet" href="assets/css/style2.css">
+  <link rel="stylesheet" href="assets/css/styleMenu.css">
+  <link rel="stylesheet" href="assets/css/about.css">
+
+<style>
+.story-content {
+  background-color: white;
+  width: 70%;
+  max-width: 550px;
+  padding: 30px;
+  border-radius: 12px;
+  position: relative;
+  background-image: url('assets/img/Stare-Background.jpg'); /* works now */
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: right;
+  overflow-y: auto;
+  max-height: 70vh;
+  min-height: 400px; /* ensures background is visible */
+
+}
+
+</style>
+
+  
+</head>
+<body>
+   <header class="navbar">
+  <div class="navbar-top">
+    <div class="top-left">
+      <div class="separator"></div>
+      <span class="search-icon">&#128269;</span>
+      <a href="#" class="language">English</a>
+    </div>
+
+    <div class="social-icons">
+      <div class="separator"></div>
+      <a href="https://www.facebook.com/Sanadcenter.qa?mibextid=dGKdO6"><img src="assets/img/facebook-icon.png" alt="Facebook"></a>
+      <a href="https://www.instagram.com/sanadcenter.qa/"><img src="assets/img/instagram-icon.png" alt="Instagram"></a>
+      <a href="#"><img src="assets/img/linkadin-icon.png" alt="LinkedIn"></a>
+      <a href="https://wa.me/+97460017577"><img src="assets/img/whatsapp-icon.png" alt="WhatsApp"></a>
+    </div>
+
+    <div class="contact-number">
+      <a href="tel:+97143333508">97444550725+ :اتصلوا بنا</a>
+    </div>
+  </div>
+
+  <!-- Desktop Menu -->
+  <div class="navbar-menu-wrapper">
+    <nav class="navbar-menu">
+      <a href="#" class="nav-item red">تواصلوا معنا</a>
+      <a href="gallery.html" class="nav-item teal">معرض وصور</a>
+      <a href="#Our-Story-Section" class="nav-item purple">قصتنا</a>
+      <a href="#Appointment-Form" class="nav-item yellow">المدونة</a>
+      <a href="about.html" class="nav-item orange">مركزنا</a>
+      <a href="#Offer-Form" class="nav-item green">العروضات</a>
+      <a href="#therapy-services-section" class="nav-item blue">الخدمات</a>
+      <a href="#Map" class="nav-item pink"> موقعنا</a>
+    </nav>
+  </div>
+
+  <!-- Mobile Menu Toggle -->
+  <div class="mobile-menu-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- New accordion-style mobile menu -->
+<div class="mobile-menu">
+  <div class="mobile-menu-item pink">
+    <div class="menu-header">
+      <a href="index.html#Map" class="icon-text">
+        <img src="https://img.icons8.com/color/48/marker.png" class="icon" alt="موقعنا">
+        <span>موقعنا</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="mobile-menu-item blue">
+    <div class="menu-header">
+      <a href="index.html#therapy-services-section" class="icon-text">
+        <img src="https://img.icons8.com/color/48/services.png" class="icon" alt="الخدمات">
+        <span>الخدمات</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="mobile-menu-item green">
+    <div class="menu-header">
+      <a href="index.html#Offer-Form" class="icon-text">
+        <img src="https://img.icons8.com/color/48/discount.png" class="icon" alt="العروضات">
+        <span>العروضات</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="mobile-menu-item orange">
+    <div class="menu-header">
+      <a href="about.html" class="icon-text">
+        <img src="https://img.icons8.com/color/48/hospital-room.png" class="icon" alt="مركزنا">
+        <span>مركزنا</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="mobile-menu-item yellow">
+    <div class="menu-header">
+      <a href="index.html#Our-Story-Section" class="icon-text">
+        <img src="https://img.icons8.com/color/48/book.png" class="icon" alt="قصتنا">
+        <span>قصتنا</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="mobile-menu-item purple">
+    <div class="menu-header">
+      <a href="index.html#Appointment-Form" class="icon-text">
+        <img src="https://img.icons8.com/color/48/blog.png" class="icon" alt="المدونة">
+        <span>المدونة</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="mobile-menu-item teal">
+    <div class="menu-header">
+      <a href="gallery.html" class="icon-text">
+        <img src="https://img.icons8.com/color/48/image-gallery.png" class="icon" alt="معرض وصور">
+        <span>معرض وصور</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="mobile-menu-item red">
+    <div class="menu-header">
+      <a href="contact.html" class="icon-text">
+        <img src="https://img.icons8.com/color/48/phone.png" class="icon" alt="تواصلوا معنا">
+        <span>تواصلوا معنا</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- Logo -->
+  <div class="logo">
+    <a href="#"><img src="assets/img/sanad.logo.png" alt="Logo"></a>
+  </div>
+
+  <!-- Butterfly icon -->
+  <img src="assets/img/top-butterfly.png" alt="Butterfly" class="butterfly-icon">
+
+
+  <script>
+    // your-script.js
+document.addEventListener("DOMContentLoaded", function () {
+  // Mobile menu toggle (hamburger button)
+  const toggle = document.querySelector(".mobile-menu-toggle");
+  const menu = document.querySelector(".mobile-menu");
+
+  toggle.addEventListener("click", function () {
+    menu.classList.toggle("show");
+  });
+
+  // Accordion submenu toggles
+  document.querySelectorAll(".menu-header").forEach(header => {
+    header.addEventListener("click", () => {
+      const item = header.parentElement;
+      const isActive = item.classList.contains("active");
+
+      // Close all other open menu items
+      document.querySelectorAll(".mobile-menu-item").forEach(other => {
+        other.classList.remove("active");
+      });
+
+      // Toggle current item (open if it was closed, close if it was open)
+      if (!isActive) {
+        item.classList.add("active");
+      }
+    });
+  });
+});
+
+
+  </script>
+</header>
+
+
+
+
+  <!-- Hero Section (optional) -->
+
+
+  <section class="hs-section">
+
+  <!-- Decorative Icons -->
+  <img src="assets/img/banner-sun.png" alt="Sun" class="hs-icon hs-icon-sun">
+  <img src="assets/img/banner-star.png" alt="Star" class="hs-icon hs-icon-star">
+  <img src="assets/img/banner-bird.png" alt="Birds" class="hs-icon hs-icon-bird">
+
+  <!-- Slideshow -->
+  <div class="hs-slideshow">
+
+    <!-- Slide 1 -->
+    <div class="hs-slide hs-slide-1 active">
+      <div class="hs-content hs-content-1">
+        <div class="hs-image hs-image-1">
+          <img src="assets/img/hero6.png" alt="Therapist with child">
+        </div>
+        <div class="hs-text hs-text-1">
+          <h5>مركز العلاج الأكثر تخصصاً من نوعه في الشرق الأوسط</h5>
+          <p>لأصحاب الهمم والاحتياجات الخاصة المتوسطة والشديدة.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="hs-slide hs-slide-2">
+      <div class="hs-content hs-content-2">
+        <div class="hs-image hs-image-2">
+          <img src="assets/img/hero7.png" alt="Therapy session">
+        </div>
+        <div class="hs-text hs-text-2">
+          <h5>رعاية متكاملة بخبرة عالمية لجميع احتياجات أبنائنا في العلاج الطبيعي والتأهيلي</h5>
+          <p>خدمات علاجية متطورة تلبي كافة احتياجات أبنائنا.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+<script>
+  let hsCurrentSlide = 0;
+const hsSlides = document.querySelectorAll(".hs-slide");
+
+function hsShowSlide(index) {
+  hsSlides.forEach((slide, i) => {
+    slide.classList.toggle("active", i === index);
+  });
+}
+
+function hsNextSlide() {
+  hsCurrentSlide = (hsCurrentSlide + 1) % hsSlides.length;
+  hsShowSlide(hsCurrentSlide);
+}
+
+setInterval(hsNextSlide, 5000);
+
+</script>
+
+  
+  <!--  end Hero Section (optional) -->
+
+
+  <!-- seperater -->
+
+<section class="section-spacer"></section>
+
+<!--End seperater -->
+
+<!-- ---------------------------------------
+ Therapy Section (optional)
+ ------------------------------------------->
+
+
+<section class="therapy-services-section" id="therapy-services-section">
+
+
+    <!-- icons at top of section -->
+  <img class="therapy-top-icon therapy-top-icon--cloud" src="assets/img/double-cloud.png" alt="Cloud">
+  <img class="therapy-top-icon therapy-top-icon--string" src="assets/img/service-spring.png" alt="String">
+  <img class="therapy-top-icon therapy-top-icon--star" src="assets/img/service-right-icon (1).svg" alt="Star">
+  <div class="therapy-services-slider">
+
+    
+    <div class="therapy-arrow arrow-left" onclick="goToNextTherapySlide()">&#8249;</div>
+
+    <div class="therapy-slider-wrapper" id="therapySlider">
+      <div class="therapy-slide"><div class="therapy-slide-content"></div></div>
+      <div class="therapy-slide active"><div class="therapy-slide-content"></div></div>
+      <div class="therapy-slide"><div class="therapy-slide-content"></div></div>
+    </div>
+
+    <div class="therapy-arrow arrow-right" onclick="goToPreviousTherapySlide()">&#8250;</div>
+  </div>
+</section>
+
+
+
+<!------------------------------------------
+ End Therapy Section (optional)
+ ------------------------------------------->
+
+
+
+
+
+ 
+  <!---------------------------------
+   ===== Our Story Section ===== 
+  ----------------------------------->
+
+
+ <section class="container5" id="Our-Story-Section">
+  <!-- Decorative Icons -->
+  <img src="assets/img/peach-flower.png" alt="flower" class="decorative-icon flower-top fade-in-element">
+  <img src="assets/img/make-appoinment-star.png" alt="star" class="decorative-icon star-left fade-in-element">
+  <img src="assets/img/cloud5.png" alt="flower" class="decorative-icon flower-bottom fade-in-element">
+  <img src="assets/img/bird2.png" alt="bird" class="decorative-icon bird-bottom fade-in-element">
+
+  <div class="container">
+    <div class="text fade-in-element">
+      <h2>قصتنا</h2>
+      <p>
+        منذ 10 سنوات، رُزقت لين ومجيد بابنتهما علياء لتكون أول فرحتهما، وملأت قدومها البيت دفئاً وأملاً جديداً. لم يتوقعا أن تكون بداية قصة مختلفة، مليئة بالتحديات، لكنها أيضاً مليئة بالحب والصبر والإيمان....
+      </p>
+      <a class="btn fade-in-element" onclick="openModal()">قراءة القصة كاملةً</a>
+    </div>
+    <div class="illustration fade-in-element">
+      <img src="assets/img/child.png" alt="رسم لطفلة على كرسي متحرك">
+    </div>
+  </div>
+</section>
+
+<!-- Modal -->
+<div class="story-modal" id="storyModal">
+  <div class="story-content">
+    <div class="close-modal" onclick="closeModal()">×</div>
+    <h2>قصتنا</h2>
+    <div class="story-paragraphs">
+      <p>منذ 10 سنوات، رُزقت لين ومجيد بابنتهما علياء لتكون أول فرحتهما، وما لم يكونا يدركانه حينها أنهما مقبلين على خوض رحلة استثنائية مع صغيرتهما الغالية.</p>
+      <p>بعد 19 يوماً من ولادتها، أصيبت علياء بعدة نوبات صرع في اليوم. وبعد تحاليل مضنية، كانت ليالٍ طويلة في المستشفيات وما لاحظه من تأخر في النمو.</p>
+      <p>وبعد أن جابوا العالم لمقابلة الأطباء، اكتشف الأطباء أن والد علياء ما تعاني منه غاليتهما.</p>
+      <p>شُخِّصت علياء بخلل جيني شديد الندرة يعرف باسم نقص CDKL5.</p>
+      <p>اعتمدت لين ومجيد جعفر البحث بكل ما هناك من مصادر لمعرفة المرض وتفاصيله، وكرّسا حياتهما على مدى ما تبقى ليجدا أطباء يوفروا أفضل علاج، وتوجيههما القصوى العمل على تنمية مهارات علياء الحركية وصعوبات النطق لديها، مع دفع لين إلى العمل عن كتب مع عدة معالجين...</p>
+    </div>
+  </div>
+</div>
+
+
+  <!-- =====End Our Story Section ===== -->
+
+
+  <!-- ===== Purple Statistics Section ===== -->
+
+  <section class="statistics-section">
+  <div class="decorative-stars">
+    <img src="assets/img/count-star-left.png" alt="star" class="decorative-star star-left">
+  </div>
+  <div class="stats-container">
+    <div class="stat-item">
+      <h2 class="count" data-target="22">0</h2>
+      <p>فعالية وحملة كل عام</p>
+    </div>
+    <div class="stat-item">
+      <h2 class="count" data-target="6">0</h2>
+      <p>متخصص بعلاج الأطفال</p>
+    </div>
+    <div class="stat-item">
+      <h2 class="count" data-target="270">0</h2>
+      <p>طفل وطفلة عايشهم فريقنا</p>
+    </div>
+    <div class="stat-item">
+      <h2 class="count" data-target="9000">0</h2>
+      <p>جلسة علاج منذ الافتتاح</p>
+    </div>
+  </div>
+  <div class="footer-doodle"></div>
+</section>
+
+
+
+<!-- ===== Gallary Section ===== -->
+
+<section class="gallery-container fade-in-section">
+  <div class="gallery-slider-container">
+    <div class="gallery-slider-track" id="gallerySliderTrack">
+      <div class="gallery-slide"><img src="assets/img/img10.jpg" alt="1"></div>
+      <div class="gallery-slide"><img src="assets/img/img11.jpg" alt="2"></div>
+      <div class="gallery-slide"><img src="assets/img/img14.jpg" alt="3"></div>
+      <div class="gallery-slide"><img src="assets/img/img16.jpg" alt="4"></div>
+      <div class="gallery-slide"><img src="assets/img/img17.jpg" alt="5"></div>
+      <div class="gallery-slide"><img src="assets/img/img18.jpeg" alt="6"></div>
+    </div>
+  </div>
+
+  <div class="gallery-nav-btns">
+    <button onclick="galleryGoToPrevSlide()">السابق</button>
+    <button onclick="galleryGoToNextSlide()">التالي</button>
+  </div>
+</section>
+
+
+
+
+
+
+ <!-- =====End Gallary Section ===== -->
+
+
+
+  <!-- ===== testimonial Section ===== -->
+
+
+ <div class="container3">
+    <section class="testimonial-section">
+      <!-- Yellow Blob Shapes -->
+      <div class="blob-yellow"></div>
+      <div class="blob-yellow-bottom"></div>
+
+      <div class="bg-shape-left"></div>
+      <div class="bg-shape-right"></div>
+      <img src="assets/img/sun-testimonial.jpg" class="icon-sun" alt="sun">
+      <img src="assets/img/heart1.png" class="icon-heart" alt="heart">
+
+      <div class="testimonial-slider">
+        <div class="quote-mark quote-left">"</div>
+        <div class="testimonial-wrapper" id="testimonial-wrapper">
+          <div class="testimonial-item">
+            <div class="testimonial">
+              حظيتُ أنا وابني بتجربة استثنائية لدى هاي هوبس، فما يقدمه من خدمات وأجهزة ومعالجين هو الأفضل في دبي.<br>
+              كما أن أطفال هاي هوبس وعائلاتهم يستفيدون من نخبة الخبراء الدوليين الأُمهر الذين يتعاون معهم المركز.<br>
+               .
+            </div>
+            <div class="author">- والدة سامي -</div>
+          </div>
+          <div class="testimonial-item">
+            <div class="testimonial">
+              نحن ممتنون جداً للرعاية التي يتلقاها ابننا من معالجي هاي هوبس، هذا المركز الذي متّنا بنفحة من الأمل،<br>
+              ومهما شكرت فريق العلاج لن أوفيه حقه لامتنانا للتغيير الجذري الذي حققه، والبسمة التي دائماً ما يرسمها على وجه زين.<br>
+              هاي هوبس هو بحق بيتنا الثاني.
+            </div>
+            <div class="author">- والدة زين -</div>
+          </div>
+        </div>
+        <div class="quote-mark quote-right">"</div>
+        
+
+      </div>
+    </section>
+
+  <!-- =====End testimonial Section ===== -->
+
+
+    <!-- =======  Offer-Form  ======= -->
+
+<section id="Offer-Form">
+  <div class="offers-container">
+  <!-- Custom icons -->
+  <div class="offers-custom-icons">
+    <img src="assets/img/flight-icon.png" class="offers-icon-plane" alt="Plane Icon">
+    <img src="assets/img/smile.png" class="offers-icon-birds" alt="Birds Icon">
+    <img src="assets/img/stare2.png" class="offers-icon-star" alt="Star Icon">
+  </div>
+
+  <h1 class="offers-title">عُرُوضُنَا</h1>
+
+  <div class="offers-blog-cards">
+    <!-- Card 1 -->
+    <div class="offers-card" onclick="offersOpenModal('offersModal1')">
+      <div class="offers-image-container">
+        <img src="assets/img/Offer-gold.jpg" alt="شاطئ">
+        <div class="offers-overlay">
+          اقرأ المزيد
+          <div class="offers-image-detail">جلسة على الشاطئ</div>
+        </div>
+      </div>
+      <div class="offers-title-text">
+        <a href="#">تعزيز مهارات اللغة لدى طفلك هذا الصيف: دليل للوالدين</a>
+      </div>
+      <div class="offers-meta">
+        <span>ساشا بينيديكت</span>
+        <span class="offers-date">١ يناير ١٩٧٠</span>
+      </div>
+      <p>
+        تُعد اللغة أداة أساسية تُشكل طريقة تفاعل الأطفال مع العالم من حولهم...
+      </p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="offers-card" onclick="offersOpenModal('offersModal2')">
+      <div class="offers-image-container">
+        <img src="assets/img/offer-silver.jpg" alt="طفلة سعيدة">
+        <div class="offers-overlay">
+          اقرأ المزيد
+          <div class="offers-image-detail">فرحة الطفولة</div>
+        </div>
+      </div>
+      <div class="offers-title-text red">
+        <a href="#">النجاة (والاستمتاع!) بالصيف مع أطفالك: نصائح للآباء المحترمين</a>
+      </div>
+      <div class="offers-meta">
+        <span>نادية مالس</span>
+        <span class="offers-date">١ يناير ١٩٧٠</span>
+      </div>
+      <p>
+        غالبًا ما يُنظر إلى عطلة الصيف على أنها وقت ممتع ومريح – ولكن بالنسبة للعديد من الآباء...
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 1 -->
+<div id="offersModal1" class="offers-modal">
+  <div class="offers-modal-content">
+    <span class="offers-close-btn" onclick="offersCloseModal('offersModal1')">&times;</span>
+    <img src="assets/img/offer-gold-details.jpg" alt="تفاصيل 1">
+    <h2>تعزيز مهارات اللغة لدى طفلك</h2>
+    <p>
+      في هذا المقال، نناقش كيف يمكن للآباء دعم أطفالهم في تطوير مهارات اللغة خلال فترة الصيف من خلال الأنشطة اليومية، القراءة التفاعلية، واستخدام القصص لتحفيز اللغة.
+    </p>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div id="offersModal2" class="offers-modal">
+  <div class="offers-modal-content">
+    <span class="offers-close-btn" onclick="offersCloseModal('offersModal2')">&times;</span>
+    <img src="assets/img/offer-silver-details.jpg" alt="تفاصيل 2">
+    <h2>النجاة بالصيف مع أطفالك</h2>
+    <p>
+      إليك نصائح عملية لجعل عطلتك الصيفية أكثر تنظيمًا ومتعة لك ولأطفالك ذوي الاحتياجات الخاصة. من الروتين اليومي إلى اختيار الأنشطة المناسبة والراحة النفسية للآباء.
+    </p>
+  </div>
+</div>
+
+</section>
+  
+        <!-- =======End Offer-Form  ======= -->
+
+
+
+      <!-- ======= Appointment-Form  ======= -->
+<section id="Appointment-Form">
+  <div class="section-wrapper" >
+
+    <!-- Woman and Child Image -->
+    <img src="assets/img/appoitment-img.jpg" class="woman-image" alt="Therapist and child with stars" />
+
+    <!-- Decorative Stars -->
+    <!-- <img src="star1.png" class="star star1" alt="Star" /> -->
+         <img src="assets/img/make-appoinment-star.png" class="star star2" alt="Star" />
+    <!-- Appointment Form -->
+    <form class="appointment-form">
+      <h2>حجز المواعيد</h2>
+
+      <div class="form-group">
+        <input type="text" placeholder="الاسم الكامل*" required />
+      </div>
+
+      <div class="form-group">
+        <input type="email" placeholder="البريد الإلكتروني*" required />
+      </div>
+
+      <div class="form-group">
+        <input type="tel" placeholder="رقم الهاتف*" required />
+      </div>
+
+      <div class="form-group">
+        <select required>
+          <option value="">اختيار الخدمة</option>
+          <option>علاج طبيعي</option>
+          <option>علاج وظيفي</option>
+          <option>علاج النطق</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <select required>
+          <option value="">اختيار الأخصائي</option>
+          <option>أ. أحمد</option>
+          <option>أ. سارة</option>
+          <option>د. محمد</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <input type="date" required />
+      </div>
+
+      <button type="submit" class="submit-btn">إرسال</button>
+    </form>
+  </div>
+</section>
+
+
+  <!-- ======= End Appointment-Form  ======= -->
+
+
+    <!-- //======== Map ==========// -->
+
+        <section id="Map">
+         <div style="margin-top: 50px; margin-bottom: 50px;">
+          <iframe style="border:0; width: 100%; height: 330px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.318579698782!2d51.42214341503118!3d25.37170382998741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45df52d7459245%3A0x897c7a26e14f0c62!2sSanad%20Center%20for%20Social%20Needs!5e0!3m2!1sen!2sqa!4v1649372739830!5m2!1sen!2sqa" frameborder="0" allowfullscreen></iframe>
+         </div>
+     </section>
+     <!-- ====== End Map ======= -->
+
+
+     <!-- ======= Footer ======= -->
+
+     <footer dir="rtl" style="background: #f9f9f9; padding: 40px 20px; font-family: 'Cairo', sans-serif; text-align: center;">
+  <div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: flex-start; gap: 30px; max-width: 1200px; margin: auto;">
+
+   
+<div>
+  <h3 style="color: #333;">خريطة الموقع</h3>
+  <div style="display: flex; gap: 40px; justify-content: center; text-align: center;">
+    <div style="display: flex; flex-direction: column; ">
+      <a href="#">الصفحة الرئيسية</a>
+      <a href="#">عن مركزنا</a>
+      <a href="#">فريقنا</a>
+      <a href="#">تواصلوا معنا</a>
+      <a href="#">المدونة</a>
+      <a href="#">الفعاليات المقبلة</a>
+    </div>
+    <!-- <div style="display: flex; flex-direction: column; gap: 5px;">
+    
+    </div> -->
+  </div>
+</div>
+
+
+    <!-- Services -->
+    <div>
+      <h3 style="color: #333;">الخدمات</h3>
+      <p><a href="#">العلاج الطبيعي</a></p>
+      <p><a href="#">العلاج الوظيفي</a></p>
+      <p><a href="#">خدمات العلاج عن بعد</a></p>
+      <p><a href="#">العلاج الطبيعي</a></p>
+      <p><a href="#">العلاج الوظيفي</a></p>
+      <p><a href="#">خدمات العلاج عن بعد</a></p>
+    </div>
+
+    <!-- Contact -->
+    <div>
+      <h3 style="color: #333;">تواصلوا معنا</h3>
+      <p>هاتف: 6001757  +971  </p>
+      <p>بريد إلكتروني:</p>
+      <p><a href="mailto:contact@highhopesdubai.com">Sanadcenter.qa@gmail.com</a></p>
+      
+    </div>
+
+    <!-- Newsletter -->
+    <div>
+      <h3 style="color: #333;">الاشتراك في خدمة الرسائل الإلكترونية الإخبارية</h3>
+      <form>
+        <input type="email" placeholder="البريد الإلكتروني" style="padding: 10px; border: 1px solid #ccc; border-radius: 30px; width: 350px;" />
+         <div style="margin-top: 10px;">
+      <a href="https://www.facebook.com/Sanadcenter.qa?mibextid=dGKdO6"><img src="assets/img/facebook-icon.png" alt="Facebook"></a>
+      <a href="https://www.instagram.com/sanadcenter.qa/"><img src="assets/img/instagram-icon.png" alt="Instagram"></a>
+      <a href="#"><img src="assets/img/linkadin-icon.png" alt="LinkedIn"></a>
+      <a href="https://wa.me/+97460017577"><img src="assets/img/whatsapp-icon.png" alt="WhatsApp"></a>
+      </div>
+          <p style="margin-top: 10px; color: #666;">حقوق النسخ © 2025 سند. جميع الحقوق محفوظة</p>
+     
+          </form>
+        </footer>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+
+
+
+     <!-- End Footer -->
+
+     <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+
+      <!-- Vendor JS Files -->
+  <!-- <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script> -->
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/models.js"></script>
+  <script src="assets/js/gallery.js"></script>
+  <script src="assets/js/scrollup.js"></script>
+  <script src="assets/js/testemoins.js"></script>
+  <script src="assets/js/Therapy.js"></script>
+  <script src="assets/js/appointment.js"></script>
+
+     
+  <!-- WhatsApp Floating Icon -->
+  <a href="https://wa.me/+97460017577" target="_blank" class="whatsapp-icon">
+    <img src="assets/img/whatsapp-icon.png" alt="WhatsApp">
+  </a>
+</body>
+</html>

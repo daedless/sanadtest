@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>مركز سند لذوي الاحتياجات الخاصة</title>
+
+   <link href="assets/img/sanad.logo.png" rel="icon">
+  <link href="assets/img/sanad.logo.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+  <link rel="stylesheet" href="assets/css/style1.css">
+  <link rel="stylesheet" href="assets/css/style2.css">
+  <link rel="stylesheet" href="assets/css/styleMenu.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+
+
+<style>
+.story-content {
+  background-color: white;
+  width: 70%;
+  max-width: 550px;
+  padding: 30px;
+  border-radius: 12px;
+  position: relative;
+  background-image: url('assets/img/Stare-Background.jpg'); /* works now */
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: right;
+  overflow-y: auto;
+  max-height: 70vh;
+  min-height: 400px; /* ensures background is visible */
+
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  padding: 5px 20px 5px 100px;
+  gap: 1px;
+  background: linear-gradient(to bottom, white 0%, white 40%, #f6d6af 40%, #f6d6af 10%);
+  
+}
+
+</style>
+  
+</head>
+<body>
+   <header class="navbar">
+  <div class="navbar-top">
+    <div class="top-left">
+      <div class="separator"></div>
+      <span class="search-icon">&#128269;</span>
+      <a href="#" class="language">English</a>
+    </div>
+
+    <div class="social-icons">
+      <div class="separator"></div>
+      <a href="#"><img src="assets/img/facebook-icon.png" alt="Facebook"></a>
+      <a href="#"><img src="assets/img/instagram-icon.png" alt="Instagram"></a>
+      <a href="#"><img src="assets/img/linkadin-icon.png" alt="LinkedIn"></a>
+      <a href="#"><img src="assets/img/whatsapp-icon.png" alt="WhatsApp"></a>
+    </div>
+
+    <div class="contact-number">
+      <a href="tel:+97143333508">+971 4 3333508 :اتصلوا بنا</a>
+    </div>
+  </div>
+
+  <!-- Desktop Menu -->
+  <div class="navbar-menu-wrapper">
+    <nav class="navbar-menu">
+      <a href="#" class="nav-item red">تواصلوا معنا</a>
+      <a href="gallery.html" class="nav-item teal">معرض وصور</a>
+      <a href="index.html#Our-Story-Section" class="nav-item purple">قصتنا</a>
+      <a href="index.html#Appointment-Form" class="nav-item yellow">المدونة</a>
+      <a href="about.html" class="nav-item orange">مركزنا</a>
+      <a href="index.html#Offer-Form" class="nav-item green">العروضات</a>
+      <a href="index.html#therapy-services-section" class="nav-item blue">الخدمات</a>
+      <a href="index.html#Map" class="nav-item pink"> موقعنا</a>
+    </nav>
+  </div>
+
+  <!-- Mobile Menu Toggle -->
+  <div class="mobile-menu-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <!-- New accordion-style mobile menu -->
+<div class="mobile-menu">
+  <div class="mobile-menu-item pink">
+    <div class="menu-header">
+      <a href="index.html#Map" class="icon-text">
+        <img src="https://img.icons8.com/color/48/marker.png" class="icon" alt="موقعنا">
+        <span>موقعنا</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="mobile-menu-item blue">
+    <div class="menu-header">
+      <a href="index.html#therapy-services-section" class="icon-text">
+        <img src="https://img.icons8.com/color/48/services.png" class="icon" alt="الخدمات">
+        <span>الخدمات</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="mobile-menu-item green">
+    <div class="menu-header">
+      <a href="index.html#Offer-Form" class="icon-text">
+        <img src="https://img.icons8.com/color/48/discount.png" class="icon" alt="العروضات">
+        <span>العروضات</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="mobile-menu-item orange">
+    <div class="menu-header">
+      <a href="about.html" class="icon-text">
+        <img src="https://img.icons8.com/color/48/hospital-room.png" class="icon" alt="مركزنا">
+        <span>مركزنا</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="mobile-menu-item yellow">
+    <div class="menu-header">
+      <a href="index.html#Our-Story-Section" class="icon-text">
+        <img src="https://img.icons8.com/color/48/book.png" class="icon" alt="قصتنا">
+        <span>قصتنا</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="mobile-menu-item purple">
+    <div class="menu-header">
+      <a href="index.html#Appointment-Form" class="icon-text">
+        <img src="https://img.icons8.com/color/48/blog.png" class="icon" alt="المدونة">
+        <span>المدونة</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="mobile-menu-item teal">
+    <div class="menu-header">
+      <a href="gallery.html" class="icon-text">
+        <img src="https://img.icons8.com/color/48/image-gallery.png" class="icon" alt="معرض وصور">
+        <span>معرض وصور</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="mobile-menu-item red">
+    <div class="menu-header">
+      <a href="contact.html" class="icon-text">
+        <img src="https://img.icons8.com/color/48/phone.png" class="icon" alt="تواصلوا معنا">
+        <span>تواصلوا معنا</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+
+  <!-- Logo -->
+  <div class="logo">
+    <a href="index.html"><img src="assets/img/sanad.logo.png" alt="Logo"></a>
+  </div>
+
+  <!-- Butterfly icon -->
+  <img src="assets/img/top-butterfly.png" alt="Butterfly" class="butterfly-icon">
+
+
+  <script>
+    // your-script.js
+document.addEventListener("DOMContentLoaded", function () {
+  // Mobile menu toggle (hamburger button)
+  const toggle = document.querySelector(".mobile-menu-toggle");
+  const menu = document.querySelector(".mobile-menu");
+
+  toggle.addEventListener("click", function () {
+    menu.classList.toggle("show");
+  });
+
+  // Accordion submenu toggles
+  document.querySelectorAll(".menu-header").forEach(header => {
+    header.addEventListener("click", () => {
+      const item = header.parentElement;
+      const isActive = item.classList.contains("active");
+
+      // Close all other open menu items
+      document.querySelectorAll(".mobile-menu-item").forEach(other => {
+        other.classList.remove("active");
+      });
+
+      // Toggle current item (open if it was closed, close if it was open)
+      if (!isActive) {
+        item.classList.add("active");
+      }
+    });
+  });
+});
+
+
+  </script>
+</header>
+
+
+
+
+
+ <!-- OUR CENTER SECTION -->
+  <section class="center-intro myfade-section">
+    <div class="center-intro-header">
+      <h2 class="center-intro-title">مركزنا</h2>
+      
+      <h3 class="center-intro-subtitle">مركزٌ فريدٌ متكامل، بيئةٌ عائليةٌ دافئة</h3>
+
+      <div class="center-intro-image">
+        <img src="assets/img/story-content-image (1).svg" alt="أيقونة اليسار" class="icon-left" />
+        <img src="assets/img/thum12.png" alt="صورة المركز" />
+        <img src="assets/img/bee-icon.svg" alt="أيقونة اليمين" class="icon-right" />
+      </div>
+
+
+
+      <p class="center-intro-desc">
+        مركز سند استراتيجية تميزنا عن غيرنا؛ حيث تم تجهيزه بأحدث الأجهزة والبرامج والأساليب التكنولوجية الحديثة والمتطورة، إلى جانب تقديم خدمات التشخيص والتقييم العلمي الدقيق، والتعلم المتخصص، وإعداد برامج تعليمية وتأهيلية معينة وخطط فردية تتناسب مع كل طفل بشكل خاص، مع إعداد تقارير دورية واضحة ومفصلة تحدد ما تم التدريب عليه بدقة وما تم إنجازه من تقدم ملحوظ، بالإضافة إلى تقديم استشارات تربوية متخصصة لفئة ذوي الاحتياجات الخاصة، وذلك لتأمين أفضل وأكفأ الخدمات من قبل فريق عملنا المختص بهدف التأهيل الكامل الذي يرفع من مستوى الأداء الأكاديمي والاجتماعي والنفسي لطلابنا الأعزاء، وتمكينهم من المشاركة الفعالة في المجتمع والوصول إلى أعلى مستويات الاستقلالية والنجاح في حياتهم اليومية.
+      </p>
+
+    </div>
+  </section>
+
+
+
+<!-- SLIDER SECTION -->
+<section class="hhs-happy-section">
+  <div class="hhs-star-shape hhs-star1"></div>
+  <div class="hhs-star-shape hhs-star2"></div>
+  <div class="hhs-star-shape hhs-star3"></div>
+
+  <div class="hhs-arabic-title">
+    يقع مركز هاي هوبس في منطقة الجميرا في دبي في فيلا ذات طابع عائلي يتسم بالدفء
+  </div>
+  <div class="hhs-arabic-description">
+    ويمتد على مساحة 6000 قدم مربع مزودة بكافة التسهيلا. صممنا مركزنا ليكون بيئة حاضنة لأطفالنا ذوي الهمم بأروع أجواء تلبي كافة احتياجاتهم.
+  </div>
+
+  <button class="hhs-gallery-btn">معرض الصور</button>
+
+  <div class="hhs-img-slider">
+    <img src="assets/img/hhr-stare.png" alt="star" class="hhs-top-left-star" />
+
+    <button class="hhs-arrow-btn" id="hhs-prevBtn">&#10094;</button>
+
+    <div class="hhs-slider-window">
+      <div class="hhs-slider-track" id="hhs-sliderTrack">
+        <div class="hhs-slide-item" style="background-image:url('assets/img/img10.jpg');"></div>
+        <div class="hhs-slide-item" style="background-image:url('assets/img/img12.jpg');"></div>
+        <div class="hhs-slide-item" style="background-image:url('assets/img/img21.jpg');"></div>
+        <div class="hhs-slide-item" style="background-image:url('assets/img/img22.jpeg');"></div>
+        <div class="hhs-slide-item" style="background-image:url('assets/img/img11.jpg');"></div>
+        <div class="hhs-slide-item" style="background-image:url('assets/img/img16.jpg');"></div>
+      </div>
+    </div>
+
+    <button class="hhs-arrow-btn" id="hhs-nextBtn">&#10095;</button>
+  </div>
+</section>
+
+<!-- FACILITIES SECTION -->
+<section class="hhs-facilities-section">
+  <div class="hhs-facilities-container">
+    <h2 class="hhs-facilities-title">منشآتنا ومرافقنا المجهزة للأطفال</h2>
+    <div class="hhs-facilities-items">
+      <div class="hhs-facility-item">غرف مجهزة بالكامل لعلاج النطق واللغة</div>
+      <div class="hhs-facility-item">غرف العلاج الوظيفي</div>
+      <div class="hhs-facility-item">غرف علاج خاصة مجهزة بكاميرات وإمكانية الاتصال لأجهزة الآيباد</div>
+      <div class="hhs-facility-item">غرفة مخصصة لتعزيز الحواس مجهزة بأحدث الأجهزة</div>
+      <div class="hhs-facility-item">صالة رياضية علاجية كبيرة لتحسين المهارات الحركية</div>
+      <div class="hhs-facility-item">مسبح مخصص للعلاج الطبيعي في الماء</div>
+      <div class="hhs-facility-item">منطقة لتناول الطعام وغرفة تبديل وحمامات تناسب كافة الأعمار</div>
+      <div class="hhs-facility-item">ملعب مهيأ للأطفال من ذوي الهمم</div>
+      <div class="hhs-facility-item">أدوات لعب حسية مختارة بعناية</div>
+    </div>
+
+    <h2 class="hhs-facilities-title" style="margin-top:40px;">منشآتنا المجهزة للعائلات</h2>
+    <div class="hhs-facilities-items">
+      <div class="hhs-facility-item">مساحة واسعة للمواقف</div>
+      <div class="hhs-facility-item">قاعة انتظار مريحة ومربيات</div>
+      <div class="hhs-facility-item">مساحة لعب للأخوة مجاورة لقاعة الانتظار</div>
+      <div class="hhs-facility-item">مكتبة لمشاهدة الأطفال أثناء العلاج</div>
+    </div>
+  </div>
+</section>
+
+<!-- Link to external JS -->
+
+
+
+
+
+<!-- ======= Footer ======= -->
+
+     <footer dir="rtl" style="background: #f9f9f9; padding: 40px 20px; font-family: 'Cairo', sans-serif; text-align: center;">
+  <div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: flex-start; gap: 30px; max-width: 1200px; margin: auto;">
+
+   
+<div>
+  <h3 style="color: #333; margin-bottom: 10px;">خريطة الموقع</h3>
+  <div style="display: flex; gap: 40px; justify-content: center; text-align: right;">
+    <div style="display: flex; flex-direction: column; gap: 5px;">
+      <a href="#">الصفحة الرئيسية</a>
+      <a href="#">عن مركزنا</a>
+      <a href="#">فريقنا</a>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 5px;">
+      <a href="#">تواصلوا معنا</a>
+      <a href="#">المدونة</a>
+      <a href="#">الفعاليات المقبلة</a>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Services -->
+    <div>
+      <h3 style="color: #333;">الخدمات</h3>
+      <p><a href="#">العلاج الطبيعي</a></p>
+      <p><a href="#">العلاج الوظيفي</a></p>
+      <p><a href="#">خدمات العلاج عن بعد</a></p>
+    </div>
+
+    <!-- Contact -->
+    <div>
+      <h3 style="color: #333;">تواصلوا معنا</h3>
+      <p>هاتف: +971 4 3333508/09</p>
+      <p>بريد إلكتروني:</p>
+      <p><a href="mailto:contact@highhopesdubai.com">contact@highhopesdubai.com</a></p>
+      
+    </div>
+
+    <!-- Newsletter -->
+    <div>
+      <h3 style="color: #333;">الاشتراك في خدمة الرسائل الإلكترونية الإخبارية</h3>
+      <form>
+        <input type="email" placeholder="البريد الإلكتروني" style="padding: 10px; border: 1px solid #ccc; border-radius: 30px; width: 350px;" />
+         <div style="margin-top: 10px;">
+        <a href="#"><img src="assets/img/whatsapp-icon.png" alt="whatsapp" /></a>
+        <a href="#"><img src="assets/img/linkadin-icon.png" alt="linkedin" /></a>
+        <a href="#"><img src="assets/img/instagram-icon.png" alt="instagram" /></a>
+        <a href="#"><img src="assets/img/facebook-icon.png" alt="facebook" /></a>
+      </div>
+          <p style="margin-top: 10px; color: #666;">حقوق النسخ © 2025 سند. جميع الحقوق محفوظة</p>
+     
+          </form>
+        </footer>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+
+
+
+     <!-- End Footer -->
+
+     <script src="assets/js/about.js"></script>
+     <script src="assets/js/AboutAnimation.js"></script>
+
+       <!-- WhatsApp Floating Icon -->
+  <a href="https://wa.me/+97460017577" target="_blank" class="whatsapp-icon">
+    <img src="assets/img/whatsapp-icon.png" alt="WhatsApp">
+  
+  </a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+</body>
+</html>
